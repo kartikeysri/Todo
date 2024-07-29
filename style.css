@@ -1,0 +1,37 @@
+#body{
+  font-family: Arial;
+}
+#heading{
+  text-align: center;
+}
+.grid,.container{
+display: grid;
+grid-template-columns: 200px 150px 100px;
+column-gap: 10px;
+row-gap: 10px;
+margin-top: 10px;
+}
+#inputclass,#dateinput{
+  font-size: 15px;
+  padding: 10px 5px;
+}
+#addme{
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.deleteme{
+  font-size: 15px;
+  border-radius: 10px;
+  background-color:rgb(114, 2, 2) ;
+  border: none;
+  color: white;
+  height: 40.800px;
+  cursor: pointer;
+}
+.size{
+  font-size: large;
+}
